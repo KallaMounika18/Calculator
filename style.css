@@ -54,3 +54,17 @@ form input.equal {
 form input.operator {
   color: #2c3333;
 }
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .calculator {
+    padding: 20px;
+  }
+  .calculator form input {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+  }
+  form input.equal {
+    width: 90px;
+  }
+}
